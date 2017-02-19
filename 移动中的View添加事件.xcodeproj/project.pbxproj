@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3364863E1E5A0FF100A73D88 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3364863D1E5A0FF100A73D88 /* test.jpg */; };
 		33FD17581CC1EA9000A42492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FD17571CC1EA9000A42492 /* main.m */; };
 		33FD175B1CC1EA9000A42492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FD175A1CC1EA9000A42492 /* AppDelegate.m */; };
 		33FD175E1CC1EA9000A42492 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FD175D1CC1EA9000A42492 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3364863D1E5A0FF100A73D88 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		33FD17531CC1EA9000A42492 /* 移动中的View添加事件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "移动中的View添加事件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FD17571CC1EA9000A42492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33FD17591CC1EA9000A42492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		33FD17551CC1EA9000A42492 /* 移动中的View添加事件 */ = {
 			isa = PBXGroup;
 			children = (
+				3364863D1E5A0FF100A73D88 /* test.jpg */,
 				33FD17591CC1EA9000A42492 /* AppDelegate.h */,
 				33FD175A1CC1EA9000A42492 /* AppDelegate.m */,
 				33FD175C1CC1EA9000A42492 /* ViewController.h */,
@@ -105,7 +108,7 @@
 		33FD174B1CC1EA9000A42492 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "孙扬";
 				TargetAttributes = {
 					33FD17521CC1EA9000A42492 = {
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33FD17661CC1EA9000A42492 /* LaunchScreen.storyboard in Resources */,
+				3364863E1E5A0FF100A73D88 /* test.jpg in Resources */,
 				33FD17631CC1EA9000A42492 /* Assets.xcassets in Resources */,
 				33FD17611CC1EA9000A42492 /* Main.storyboard in Resources */,
 			);
@@ -191,8 +195,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -235,8 +241,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
