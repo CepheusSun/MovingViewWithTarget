@@ -13,6 +13,7 @@
 {
     UIButton *button_;
 }
+
 @property (weak, nonatomic) IBOutlet UILabel *targetLabel;
 @end
 
@@ -20,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     button.backgroundColor = [UIColor redColor];
     
@@ -98,8 +100,6 @@
 }
 
 @end
-
-
 
 
 

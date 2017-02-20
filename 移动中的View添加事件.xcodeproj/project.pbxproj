@@ -113,6 +113,7 @@
 				TargetAttributes = {
 					33FD17521CC1EA9000A42492 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = YJZG85UZUL;
 					};
 				};
 			};
@@ -271,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJZG85UZUL;
 				INFOPLIST_FILE = "移动中的View添加事件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "come.micheal.demo.----View----";
@@ -282,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJZG85UZUL;
 				INFOPLIST_FILE = "移动中的View添加事件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "come.micheal.demo.----View----";
